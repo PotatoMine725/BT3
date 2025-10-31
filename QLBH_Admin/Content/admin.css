@@ -1,0 +1,80 @@
+﻿/*
+ * Base Layout
+ */
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fa; /* Màu nền xám nhạt */
+}
+
+/*
+ * Sidebar (Menu trái)
+ */
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background: #2c3e50; /* Màu xanh đen */
+    color: #fff;
+    min-height: 100vh; /* Cao hết màn hình */
+    transition: all 0.3s;
+}
+
+    /* Tiêu đề sidebar */
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #34495e; /* Màu xanh đen nhạt hơn */
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* Các link menu */
+    #sidebar .nav-link {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #adb5bd; /* Màu chữ xám */
+        display: block;
+        text-decoration: none;
+    }
+
+        /* Khi hover vào link */
+        #sidebar .nav-link:hover {
+            color: #fff;
+            background: #34495e;
+        }
+
+/*
+ * Vùng nội dung chính (bên phải)
+ */
+#content {
+    width: 100%;
+    padding: 30px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+/* * Tùy chỉnh bảng Bootstrap cho đẹp hơn
+ */
+.table-admin {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+    .table-admin thead th {
+        background-color: #f8f9fa;
+        border-bottom-width: 2px;
+    }
+
+/*
+ * Tùy chỉnh Form cho đẹp
+ */
+.form-horizontal {
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 1.5rem; /* Tăng khoảng cách giữa các trường */
+}
