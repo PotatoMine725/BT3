@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "BuCvbyGla/RUQPb/q27DjW6QTUOvL7gOqkSKmfe9GpY=",
-  "Source": "QLBH_API",
-  "BasePath": "_content/QLBH_API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"BuCvbyGla/RUQPb/q27DjW6QTUOvL7gOqkSKmfe9GpY=","Source":"QLBH_API","BasePath":"_content/QLBH_API","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
